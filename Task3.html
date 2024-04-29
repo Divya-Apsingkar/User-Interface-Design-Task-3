@@ -40,7 +40,7 @@ label,
 }
    
     .text-center {
-      color: #4A5642;
+      color: #564242;
       font-size: small;
     }
  
@@ -52,7 +52,9 @@ label,
   width: 360px; 
   height: 500px;
   max-width: 100%;
-  background-color: #5f5f55;
+  /*background-color: #5f5556;*/
+  background-color: #AAB08629;
+
   border: 1px solid white; /* Add white border */
 }
 
@@ -67,7 +69,7 @@ label,
         color: white;
     }
     .search-btn {
-      background-color: #4A5642; 
+      background-color:#4D5628; 
       color: #fff; 
       justify-content: center;
       align-items: center;
@@ -75,7 +77,6 @@ label,
       height: 50px;
       margin-left:2%;
       margin-top: 3%;
-      background-color: #2e3926;
       overflow: hidden;
       border-radius :5px;    }
 
@@ -83,6 +84,7 @@ label,
     .text-center {
       color: white;
       font-size: small;
+      
     }
  
 
@@ -111,6 +113,7 @@ label,
    
     .oval-form2 {
   background-color: #fff;
+  
   padding: 50px;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
   width: 360px; 
@@ -126,20 +129,22 @@ label,
     }
     
     .search-btn2 {
-      background-color: #4A5642; 
+      background-color:  #4D5628; 
       color: #fff; 
-      border-radius: 25px;
+      border-radius: 61px;
+      padding: 0px, 61px, 4px, 61px;
+      gap: 10px;
       justify-content: center;
       align-items: center;
-      width: 150px;
-      height: 50px;
+      width: 174px;
+      height: 59px;
       margin-left: 20%;
       margin-top: 10px;
       overflow: hidden;
     }
 
     .search-btn2:hover {
-      background-color: #4A5642; 
+      background-color: #564242;
     }
     
 
@@ -150,6 +155,8 @@ label,
 
     .faint-label2 {
       opacity: 0.3; 
+      
+
     }
 
 
@@ -160,10 +167,10 @@ label,
 <div class="container">
   <div class="oval-form">
    
-    <h2 class="text-center mb-4 " style="font-size: 25px;">Find Your Partner</h2>
+    <h2 class="text-center mb-4 " style="font-size: 25px; ">Find Your Partner</h2>
     <form>
       <div class="form-group bg">
-        <label for="age" class="faint-label">Age</label>
+        <label for="age" class="faint-label " style="height: 19px; width: 25px;size: 16px;font-weight:400px;font-weight: normal;">Age</label>
         <select class="form-control" id="age">
           <option value="0-20" class="faint-label">0</option>
           <option value="21-40" class="faint-label">18 to 40</option>
@@ -174,7 +181,7 @@ label,
       
 
       <div class="form-group bg">
-        <label for="religion" class="faint-label">Religion</label>
+        <label for="religion" class="faint-label" style="font-weight: normal;">Religion</label>
         <select class="form-control" id="religion">
           <option value="Muslim" class="faint-label">Muslim</option>
           <option value="Hindu" class="faint-label">Hindu</option>
@@ -186,7 +193,7 @@ label,
       </div>
 
       <div class="form-group bg">
-        <label for="city" class="faint-label">City</label>
+        <label for="city" class="faint-label" style="font-weight: normal; color: #D7D8CD">City</label>
         <select class="form-control" id="city">
           
           <option value="Pune" class="faint-label">Pune</option>
@@ -201,10 +208,10 @@ label,
   </div>
 
   <div class="oval-form2">
-    <h2 class="text-center mb-4" style="font-size: 25px; color:  #4A5642;  " >Find your Partner</h2>
+    <h2 class="text-center mb-4" style="font-size: 25px; color:  #4D5628;  " >Find your Partner</h2>
     <form>
       <div class="form-group bg">
-        <label for="age" class="faint-label2">Age</label>
+        <label for="age" class="faint-label2" style="font-weight: normal;">Age</label>
         <select class="form-control2" id="age">
           <option value="0-20" class="faint-label">0</option>
           <option value="21-40" class="faint-label">18 to 40</option>
@@ -215,7 +222,7 @@ label,
       
 
       <div class="form-group bg">
-        <label for="religion" class="faint-label2">Religion</label>
+        <label for="religion" class="faint-label2" style="font-weight: normal;">Religion</label>
         <select class="form-control2" id="religion">
           <option value="Muslim" class="faint-label">Muslim</option>
           <option value="Hindu" class="faint-label">Hindu</option>
@@ -227,7 +234,7 @@ label,
       </div>
 
       <div class="form-group bg">
-        <label for="city" class="faint-label2">City</label>
+        <label for="city" class="faint-label2" style="font-weight: normal; ">City</label>
         <select class="form-control2" id="city">
           
           <option value="Pune" class="faint-label2">Pune</option>
